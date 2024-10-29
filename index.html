@@ -19,7 +19,7 @@
             margin-bottom: 10px;
         }
         img {
-            width: 150px; /* Ajusta el tamaño del logo aquí */
+            width: 75px; /* Ajusta el tamaño del logo aquí a la mitad */
             margin-bottom: 20px; /* Espacio entre el logo y el título */
         }
         input[type="text"] {
@@ -125,16 +125,16 @@
     <h1>Registro Único de Guardia Nocturna UBO68</h1>
     
     <div class="info-container">
-        <div class="info"><br>Desde las 23:00 horas, se realizará el registro de asistencia de los bomberos asignados al turno nocturno. Este control es esencial para garantizar la adecuada distribución de tareas y la preparación ante cualquier eventualidad que pueda surgir durante la noche.</div>
+        <div class="info"><br>A partir de las 23:00 horas, se registrará la asistencia de los bomberos del turno nocturno para asegurar la distribución de tareas y la preparación ante cualquier eventualidad.</div>
         <div id="horaLabel">Hora</div>
         <div id="horaActual"></div>
-        <div class="message" id="message"></div> <!-- Área para mostrar el mensaje de registro -->
+        <div class="message" id="message"></div>
     </div>
 
     <label for="respuesta">Código de Bombero:</label>
     <input type="text" id="respuesta" placeholder="Ingresa tu código (ej. A14783)">
-    <button onclick="registrarRespuesta()">Registrar</button>
+    <button id="registrarBtn" onclick="registrarRespuesta()">Registrar</button>
     
-    <div class="contact">Soporte: WhatsApp - 927 388 467</div>
+    <div class="contact">Atención al usuario: WhatsApp...</div>
 </body>
 </html>
